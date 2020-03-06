@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 上面是CSS reset*/
+.wrap{
+ margin: 0 auto;
+ width: 960px;
+ border: 1px solid;
+}
+.header img{
+	height: 36px;
+}
+
+
+.menu {
+	float: right;
+}
+.menu ul {
+	float: right;
+	list-style: none;
+}
+.menu li {
+	float: left;
+}
+.menu a {
+	text-decoration: none;
+	color: #00cc99;
+	display: block;
+	padding: 10px;
+}
+.menu li a:hover {
+	border-bottom: 3px solid #00cc99;
+}
+.clear {
+	clear: both;
+}
+.footer1{
+	width: 50%;
+	float: left;
+
+}
+
+.img li{
+  float: left;
+  padding: 15px;
+}
+.clear {
+	clear: both;
+}
+
+
+.under1{
+	width:400px;
+	height:100px;
+	  float: left;
+	position:relative;
+  }
+  /* absolute的設定需要父元件也有position */
+  .under1 p{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	
+  }
+  /* 如果發現元件有重複的樣式 可以考慮歸同一類，減少重複css */
+  .listBox{
+	width:80px;
+	  float: left;
+	padding-left:10px;
+	border-left:1px solid #343434;
+  }
+  .listBox ul{
+	width:100%;
+  }
+  .listBox li{
+	padding-top:2px;
+	padding-bottom:2px;
+	list-style:none;
+  }
+  /* 這邊就只要針對不同之處再進行調整 */
+  .under2{
+	  margin-left:50px;
+  }
+  .under3{
+	  margin-left:60px;
+  }
+  /* 建議日後盡量少用標籤本身(ex:ul li)去設定，除非非常確定此標籤(ex:ul li)都要這個樣式 */
+
+
+
+
+
